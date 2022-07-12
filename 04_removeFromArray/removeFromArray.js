@@ -8,6 +8,7 @@ const removeFromArray = function(...args) {
     });
     return resultado;
     /*
+    Shorter solution
     const array = args[0]
     return array.filter(val => !args.includes(val)) 
     */
